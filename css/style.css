@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;}
+.wrapper{
+    padding: 120px 105px;
+}
+.content__wrapper{
+    display: flex;
+    flex-direction: column;
+    max-width: 1232px;
+    width: 100%;
+    align-items: center;
+    margin: 0 auto;
+}
+.what-do-we-offer-title{
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-weight: 500;
+    font-size: 40px;
+    color: #383838;
+}
+.what-do-we-offer-line{
+display: block;
+    background: #F5BD41;
+    width: 100px;
+    height: 4px;
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+}
+.column{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+.img-offer{
+    height: 100px;
+    width: 100px;
+}
+.text-offer{
+    margin-top: 52px;
+    font-style: normal;
+    font-weight: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #383838;
+}
