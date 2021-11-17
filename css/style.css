@@ -31,6 +31,27 @@ h1{
     width: 542px;
     margin-top: 196px;
 }
+.top-section__search{
+    background: #FFFFFF;
+    height: 64px;
+    width: 100%;
+    margin-top: 145px;
+    border-style: solid;
+    border-color: #F3F3F4;
+    border-width: 3px;
+    border-radius: 8px;
+}
+.top-section__buttons{
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+}
+.top-section__input{
+    margin-right: 16px;
+}
+.app-store{
+    margin-right: 75px;
+}
 .wrapper {
     padding: 120px 104px;
 }
